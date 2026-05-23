@@ -1,10 +1,30 @@
-# README - Projeto Java
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-green)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/PedroGiffoni/Atividade-1-Curso-Java-I-Rede)
+
+# ☕ Exercícios de Java - Capacita i-rede
+
+<p align="center">
+  <img src="URL_DA_IMAGEM" width="700">
+</p>
 
 <p align="center">
   <i>Unidade 1 - Tarefa 1 | Capacita i-rede</i>
 </p>
 
 ---
+
+# 📑 Índice
+
+- [Sobre](#-sobre-o-projeto)
+- [Tecnologias](#️-tecnologias-utilizadas)
+- [Atividades](#-atividades-desenvolvidas)
+- [Como Executar](#️-como-executar)
+- [Autor](#-autor)
+
+---  
 
 # 📌 Sobre o Projeto
 
@@ -73,27 +93,43 @@ Praticar os fundamentos da linguagem Java através de exercícios focados em ló
 
 ---
 
-# 🚀 Como Executar o Projeto
+# 📚 Conceitos Praticados
 
-1. Baixe ou clone o projeto
-2. Abra o projeto em uma IDE Java (NetBeans, IntelliJ ou Eclipse)
-3. Execute a classe `Main`
-4. Escolha a atividade desejada através do menu
+- Operadores lógicos
+- Estruturas condicionais
+- Switch Case
+- Laços de repetição
+- Arrays
+- Manipulação de Strings
+- Entrada de dados com Scanner
+- Organização de classes
+
+---
+
+# ▶️ Como Executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/PedroGiffoni/Atividade-1-Curso-Java-I-Rede.git
+
+# Abra na IDE de sua preferência
+# Execute a classe Main.java
+```
 
 ---
 
 # 📁 Organização das Classes
 
 ```bash
-Main.java              -> Responsável pelo menu principal
+Atividade1.java              -> Main Responsável pelo menu principal
 
-Atividade1.java        -> Verificação lógica
-Atividade2.java        -> Tipos primitivos
-Atividade3.java        -> Menu com switch
-Atividade4.java        -> Tabuada com for
-Atividade5.java        -> Manipulação de string
-Atividade6.java        -> Busca em array
-Atividade7.java        -> Fatorial
-Atividade8.java        -> Menu com while
-Atividade9.java        -> Nome e sobrenome
-Atividade10.java       -> Contagem de palavras
+Atividade1Tarefa1.java        -> Verificação lógica
+Atividade1Tarefa2.java        -> Tipos primitivos
+Atividade1Tarefa3.java        -> Menu com switch
+Atividade1Tarefa4.java        -> Tabuada com for
+Atividade1Tarefa5.java        -> Manipulação de string
+Atividade1Tarefa6.java        -> Busca em array
+Atividade1Tarefa7.java        -> Fatorial
+Atividade1Tarefa8.java        -> Menu com while
+Atividade1Tarefa9.java        -> Nome e sobrenome
+Atividade1Tarefa10.java       -> Contagem de palavras
