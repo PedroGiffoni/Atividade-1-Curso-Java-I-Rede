@@ -1,0 +1,74 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package br.com.giffoni.pedro.atividade1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Pedro
+ */
+public class Atividade1 {
+
+    public static void main(String[] args) {
+        
+        Scanner ler = new Scanner(System.in);
+        System.out.println("---- MENU DE ATIVIDADES ----");
+        System.out.println("1 - Atividade 1");
+        System.out.println("2 - Atividade 2");
+        System.out.println("3 - Atividade 3");
+        System.out.println("4 - Atividade 4");
+        System.out.println("5 - Atividade 5");
+        System.out.println("6 - Atividade 6");
+        System.out.println("7 - Atividade 7");
+        System.out.println("8 - Atividade 8");
+        System.out.println("9 - Atividade 9");
+        System.out.println("10 - Atividade 10");
+
+        System.out.println("Escolha uma atividade:");
+        
+        int opcao = ler.nextInt();
+        
+        switch (opcao){
+        case 1: 
+            Atividade1Tarefa1 tarefa1 = new Atividade1Tarefa1();
+            tarefa1.executarTarefa1();
+            break;
+        case 2: 
+            Atividade1Tarefa2 tarefa2 = new Atividade1Tarefa2();
+            tarefa2.executarTarefa2();
+            break;
+        case 3: 
+            Atividade1Tarefa3 tarefa3 = new Atividade1Tarefa3();
+            tarefa3.executarTarefa3();
+            break;    
+        case 4: 
+            Atividade1Tarefa4 tarefa4 = new Atividade1Tarefa4();
+            tarefa4.executarTarefa4();
+            break;      
+        case 5: 
+            Atividade1Tarefa5 tarefa5 = new Atividade1Tarefa5();
+            tarefa5.executarTarefa5();
+            break;    
+        case 6: 
+            Atividade1Tarefa6 tarefa6 = new Atividade1Tarefa6();
+            tarefa6.executarTarefa6();
+            break;    
+        case 7: 
+            Atividade1Tarefa7 tarefa7 = new Atividade1Tarefa7();
+            tarefa7.executarTarefa7();
+            break;
+        case 8: 
+            Atividade1Tarefa8 tarefa8 = new Atividade1Tarefa8();
+            tarefa8.executarTarefa8();
+            break;  
+        default:
+                System.out.println("Escolha uma opção válida!");
+                break;
+        } 
+        
+    ler.close();   
+    }
+}
