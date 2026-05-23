@@ -64,6 +64,14 @@ public class Atividade1 {
             Atividade1Tarefa8 tarefa8 = new Atividade1Tarefa8();
             tarefa8.executarTarefa8();
             break;  
+        case 9: 
+            Atividade1Tarefa9 tarefa9 = new Atividade1Tarefa9();
+            tarefa9.executarTarefa9();
+            break;   
+        case 10: 
+            Atividade1Tarefa10 tarefa10 = new Atividade1Tarefa10();
+            tarefa10.executarTarefa10();
+            break;     
         default:
                 System.out.println("Escolha uma opção válida!");
                 break;
