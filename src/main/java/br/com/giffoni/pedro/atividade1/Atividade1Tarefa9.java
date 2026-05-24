@@ -31,5 +31,4 @@ public class Atividade1Tarefa9 {
 
         System.out.println("Último nome: " + ultimoNome);
     }
-    
 }

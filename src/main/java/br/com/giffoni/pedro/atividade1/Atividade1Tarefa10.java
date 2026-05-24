@@ -24,17 +24,12 @@ public class Atividade1Tarefa10 {
         int quantidadePalavras = 1;
 
         for (int i = 0; i < frase.length(); i++) {
-
             if (frase.charAt(i) == ' ') {
-
                 quantidadePalavras++;
-
             }
         }
-
         System.out.println("Quantidade de palavras: "
                 + quantidadePalavras);
-
     }
 }
 
