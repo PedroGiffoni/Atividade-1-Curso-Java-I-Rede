@@ -16,17 +16,20 @@ public class Atividade1Tarefa3 {
         
         Scanner ler = new Scanner (System.in);
         
+        int escolhaOperacao;
         
-        System.out.println("################CALCTOP##################");
-        System.out.println("Escolha a opção desejada");
-        System.out.println("1 - SOMA");
-        System.out.println("2 - SUBTRAÇÃO");
-        System.out.println("3 - SAIR");
+        do {
         
-        int escolhaOperacao = ler.nextInt();
+            System.out.println("################CALCTOP##################");
+            System.out.println("Escolha a opção desejada");
+            System.out.println("1 - SOMA");
+            System.out.println("2 - SUBTRAÇÃO");
+            System.out.println("3 - SAIR");
+        
+            escolhaOperacao = ler.nextInt();
         
         
-        switch (escolhaOperacao){
+            switch (escolhaOperacao){
                 case 1:  
                     System.out.println("Digite o primeiro número:");
                     int numero1 = ler.nextInt();
@@ -47,7 +50,7 @@ public class Atividade1Tarefa3 {
                 default:
                 System.out.println("Escolha uma opçao de 1 a 3!");
                         break;
-        }
-        ler.close();
+            }            
+        } while (escolhaOperacao != 3);
     }
 }

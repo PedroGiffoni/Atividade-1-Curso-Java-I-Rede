@@ -18,7 +18,7 @@ public class Atividade1 {
         
         int opcao = 0;
         
-        while (opcao != 0){
+        while (opcao != 11){
             
         
             System.out.println("---- MENU DE ATIVIDADES ----");
@@ -32,7 +32,6 @@ public class Atividade1 {
             System.out.println("7 - Atividade 7");
             System.out.println("8 - Atividade 8");
             System.out.println("9 - Atividade 9");
-            System.out.println("10 - Atividade 10");
             System.out.println("10 - Atividade 10");
             System.out.println("11 - Sair");
         

@@ -20,8 +20,5 @@ public class Atividade1Tarefa5 {
         
         String novaFrase = frase.replaceAll("(?i)e", "*");
         System.out.println("Resultado: " + novaFrase);
-
-        ler.close();
-        
     }
 }

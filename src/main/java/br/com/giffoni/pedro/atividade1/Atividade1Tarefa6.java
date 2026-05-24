@@ -30,10 +30,10 @@ public class Atividade1Tarefa6 {
             }
             
         }
-        if(encontrado = true) {
+        if(encontrado) {
             System.out.println("O nome " + nomeDigitado + "  está na lista!");
         }else{
-            System.out.println("O nome " + nomeDigitado + "não está na lista!");
+            System.out.println("O nome " + nomeDigitado + " não está na lista!");
         }
     
     

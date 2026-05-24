@@ -37,9 +37,8 @@ public class Atividade1Tarefa8 {
                 System.out.println("Saindo do programa...");
                 }else{
                     System.out.println("Opção inválida. Escolha um numero de 1 a 3");
-                        }
+                    }
         
-            }
-        ler.close();
+        }
     }
 }
